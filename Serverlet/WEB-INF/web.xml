@@ -1,0 +1,57 @@
+
+<web-app>
+    <servlet>
+        <servlet-name>Demo</servlet-name>
+        <servlet-class>ServletDemo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>Demo</servlet-name>
+         <url-pattern>/ServletDemo</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>prog</servlet-name>
+        <servlet-class>program</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>prog</servlet-name>
+         <url-pattern>/program</url-pattern>
+    </servlet-mapping>
+ <servlet>
+        <servlet-name>sal_cal</servlet-name>
+        <servlet-class>sal_calc</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>sal_cal</servlet-name>
+         <url-pattern>/sal_calc</url-pattern>
+    </servlet-mapping>
+<servlet>
+        <servlet-name>registration</servlet-name>
+        <servlet-class>stu_reg</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>registration</servlet-name>
+         <url-pattern>/stu_reg</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Percent</servlet-name>
+        <servlet-class>percent</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>Percent</servlet-name>
+         <url-pattern>/percent</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>CRUD</servlet-name>
+        <servlet-class>crud_operation</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+         <servlet-name>CRUD</servlet-name>
+         <url-pattern>/crud_operation</url-pattern>
+    </servlet-mapping>
+</web-app>

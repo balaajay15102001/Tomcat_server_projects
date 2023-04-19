@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple program</title>
+</head>
+<body>
+
+<h1>We are ZOHO EMPLOYEE</h1>
+
+<%!int call(int i){
+	int b= i;
+	return b;
+}
+%>
+<%="The Result is:"+call(5)%>
+<% out.println("I am Bala");%>
+</body>
+</html>

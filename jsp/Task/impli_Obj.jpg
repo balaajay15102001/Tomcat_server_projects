@@ -1,0 +1,14 @@
+<html>  
+<body>  
+<% 
+out.print("out implicit object is runned successfully.."); 
+out.print("The Serverlet Name:"+config.getServerletName());
+String name=request.getParameter("name");
+String email=request.getParameter("email");
+out.print("The name is:"+name);
+out.print("The name is:"+email);
+//pageContext.setAttribute("customer",name,PageContext.SESSION_SCOPE);
+//<a href="PAGE.jsp">PAGE CONTEXTjsp</a>  
+%>  
+</body>  
+</html>  
